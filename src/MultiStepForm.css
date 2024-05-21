@@ -1,0 +1,163 @@
+/* MultiStepForm.css */
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.form-container {
+    width: 40% !important;
+    margin: auto !important;
+    margin-top: 50px !important;
+    text-align: center !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #1e2a78 !important;
+    margin-bottom: 10px !important;
+}
+
+.subtitle {
+    font-size: 32px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    margin-bottom: 20px !important;
+}
+
+.stepper {
+    margin-bottom: 20px !important;
+}
+
+.step-content {
+    margin-top: 20px !important;
+}
+
+.step-title {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 52px !important;
+    font-weight: bold !important;
+    color: #333 !important;
+    margin-bottom: 20px !important;
+}
+
+.loan-amount-input {
+    font-size: 28px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600;
+}
+
+.loan-amount-input::placeholder {
+    color: #1e2a78 !important;
+    font-weight: 600;
+}
+
+.dollar-sign {
+    font-size: 32px !important;
+    font-weight: 600;
+    color: #1e2a78 !important;
+    margin-right: 8px !important;
+}
+
+.phone-code {
+    margin-right: 8px;
+}
+
+.time-period-button {
+    height: 56px !important;
+    background-color: #e9edf2 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    border: 1px solid #ccc !important;
+    color: #1e2a78 !important;
+    border-radius: 5px !important;
+    font-family: "Montserrat", sans-serif !important;
+
+}
+
+.time-period-button:hover {
+    background-color: #dae8fc !important;
+    box-shadow: #154192 !important;
+    border: 1px solid #154192 !important;
+}
+
+.time-period-button.selected {
+    background-color: #e0f0ff !important;
+    border-color: #1e2a78 !important;
+    color: #1e2a78 !important;
+}
+
+.step-navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loan-next-button {
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #dae8fc !important;
+    /* Light blue background */
+    color: #333 !important;
+    /* Dark text color for contrast */
+    border: none !important;
+    width: 100% !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    /* Rounded corners */
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.loan-next-button:disabled {
+    cursor: no-drop !important;
+    color: gray !important;
+}
+
+.loan-next-button:hover {
+    background-color: #154192 !important;
+    /* Slightly darker on hover for visual feedback */
+    color: white !important;
+}
+
+.next-button,
+.back-button {
+    background-color: #154192 !important;
+    color: #fff !important;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.back-button {
+    background-color: #f0f0f0;
+    margin-right: 10px;
+}
+
+.next-button:disabled {
+    background-color: #e0e0e0 !important;
+    color: #888 !important;
+}
+
+.sub-text {
+    color: #154192 !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px;
+}
+
+.agreement-checkbox {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
